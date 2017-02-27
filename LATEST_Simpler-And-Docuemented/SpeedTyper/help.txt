@@ -1,0 +1,19 @@
+[b]Help:[/b] a list of commands and installed software.
+
+[b]help:[/b] what you are seeing now.
+[b]dir:[/b] shows folder directory
+[b]cd:[/b] move around the directory EX: cd C:\
+[b]run:[/b] run an installed software
+[b]ping:[/b] check if connection is running
+[b]cls:[/b] clears the terminal screen
+
+[b]Software:[/b]
+
+[b]Ghost Axxez:[/b] Indetectable Remote Access Tool [RAT]. Gain connection and control of another computer/server.
+[color=red]ghstxz -ip -port -pass[/color]
+
+[b]Hell-Hound:[/b] Packet Sniffer, get, decrypt and obtain information based on data traffic.
+[color=red]hllhnd -ip [/color]
+
+[b]EnolaGay:[/b] File Injector, inject and run an exe/scripts to gather or destroy information from a connection.
+[color=red]enolagay -payload -to [/color]

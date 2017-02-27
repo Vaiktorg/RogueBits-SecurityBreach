@@ -1,0 +1,3 @@
+Miguel Hasani: Rooms Folder y Images Folder. (Excluyendo GUI, LightBeams, Stuff, Attacks, Animations)
+Diego: 1 bugfix y SFX que no funcionan por que pesan demaciado...
+Victor: El resto.

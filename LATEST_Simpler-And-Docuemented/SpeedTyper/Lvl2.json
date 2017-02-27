@@ -1,0 +1,29 @@
+{
+  "Commands":[
+    "run hllhnd -get -pwr_schedule.xls",
+    "-pwr_schedule.xls -RW -\"PwrOut=0.0\"",
+    "run EnlGay -inject -pwr_schedule.xls",
+    "-clrlog -all",
+    "-dscnnct -exit"
+    ],
+    
+  "Display":{
+    "User":"[color=fuchsia]@[CyanoCake]>_ [/color]",
+    "EnolaGay":"[color=red][EnolaGay]>_ [/color]",
+    "HellHound":"[color=green][HellHound]>_ [/color]"
+    },
+    
+  "Conditions":{
+    "0":false,
+    "1":false,
+    "2":false,
+    "3":false,
+    "4":false
+    },
+  
+  "Directory":[
+    "Generator1.exec",
+    "Generator2.exec",
+    "Generator3.exec"
+    ]
+}

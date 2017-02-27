@@ -1,0 +1,17 @@
+Intel:
+
+IP: 60.117.3.202
+Port: 3389
+*Cheap remote access software
+
+audio bypass:
+ghstxxz -cnt -ip -port 
+ghstxxz -axxz -password
+ghstxxz -ctrl -get -audio_driver_list
+ghstxxz -ctrl -set -audio_driver_name -reroute -%motherIP%
+ghstxxz -ctrl -set -audio_driver_name -latch
+ghstxxz -clrlog -all
+ghstxxz -dscnnct
+ghstxxz -exit
+
+-Password: TehTruH4X0Rz~

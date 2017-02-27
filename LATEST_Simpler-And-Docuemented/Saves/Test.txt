@@ -1,0 +1,1 @@
+{"Player":{"stamina":21.85, "inventory":[{"@path":"res://Scripts/Items/Class_KeyItem.gd", "@subpath":"", "item_type":"Key", "key_level":"", "name":"Key", "slot":0}], "level":"res://Rooms/Map2/Lvl2F1.tscn", "name":"CyberScout"}}

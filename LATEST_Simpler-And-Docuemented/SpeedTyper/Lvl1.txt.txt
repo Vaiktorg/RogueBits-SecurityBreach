@@ -1,0 +1,31 @@
+{
+  "Commands":[
+    "run ghstaxxz -60.117.3.202 -3389 -passw0rd",
+    "-ctrl -get -audio_driver_list",
+    "-ctrl -set -OnBoard_Mic_8839 -reroute -%IP%",
+    "-ctrl -set -OnBoard_Mic_8839 -latch",
+    "-clrlog -all",
+    "-dscnnct -exit"
+    ],
+    
+  "Display":[
+    "[color=fuchsia]@[CyanoCake]>_ [/color]",
+    "[color=red][GhostAxxz]>_ [/color]"
+    ],
+    
+  "Conditions":{
+    "isConnected":false,
+    "taskDone":false,
+    "LogFile":false,
+    "Disconnected":false
+    },
+  
+  "Directory":[
+    "Mic_In_0038",
+    "Speaker_Out_9837",
+    "OnBoard_Mic_8839",
+    "SystemAudio_3893"
+    ],
+    
+  "Calls":[1,2,3,5,6]
+}

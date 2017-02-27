@@ -1,0 +1,32 @@
+{
+  "directory": {
+    "driverlist": [
+      "Mic_In_0038",
+      "Speaker_Out_9837",
+      "OnBoard_Mic_8839",
+      "SystemAudio_3893"
+    ],
+    "commands": [
+      "ghstxxz -cnct -60.117.3.202 -3389",
+      "ghstxxz -axxz -TehTruH4X0Rz~",
+      "ghstxxz -ctrl -get -audio_driver_list",
+      "ghstxxz -ctrl -set -OnBoard_Mic_8839 -reroute -%motherIP%",
+      "ghstxxz -ctrl -set -OnBoard_Mic_8839 -latch",
+      "ghstxxz -clrlog -all",
+      "ghstxxz -dscnnct",
+      "ghstxxz -exit"
+    ],
+	"conPos": [
+	  1,
+	  3,
+	  5,
+	  6	
+	]
+  },
+  "conditions": {
+    "Connected": false,
+    "Task": false,
+    "LogFile": false,
+	"Disconnect": false
+  }
+}
